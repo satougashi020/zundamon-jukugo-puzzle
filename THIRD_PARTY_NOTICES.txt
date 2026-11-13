@@ -1,0 +1,22 @@
+本ゲームの熟語データ(dictionary.json)は、SudachiDict
+(https://github.com/WorksApplications/SudachiDict)の語彙から、
+常用漢字のみで構成された2〜4字の語を抽出・加工して作成した派生物です。
+(This dictionary data is a modified extract derived from SudachiDict.)
+
+SudachiDict
+  Copyright (c) [年] Works Applications Co., Ltd.
+  Licensed under the Apache License, Version 2.0
+  http://www.apache.org/licenses/LICENSE-2.0
+
+SudachiDict には UniDic および NEologd の一部が含まれています。
+
+UniDic
+  Copyright (c) 2011-2013, The UniDic Consortium
+  [LEGAL に記載の BSD ライセンス条文をここに転記]
+
+NEologd (mecab-unidic-neologd)
+  [LEGAL に記載の著作権表示]
+  Licensed under the Apache License, Version 2.0
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Apache License, Version 2.0 の全文は LICENSE-2.0.txt を参照してください。
