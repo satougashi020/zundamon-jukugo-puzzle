@@ -1,0 +1,79 @@
+{
+  "menu": {
+    "enter": { "file": "menu_enter.mp3", "volume": 0.7 },
+    "select": { "file": "menu_select.mp3", "volume": 0.7 },
+    "cancel": { "file": "menu_cancel.mp3", "volume": 0.4 }
+  },
+  "game": {
+    "start": { "file": "game_start.mp3", "volume": 1 },
+    "end": { "file": "game_end.mp3", "volume": 1 }
+  },
+  "field":{
+    "stuck": { "file": "field_stuck.mp3", "volume": 0.6 },
+    "clear": { "file": "field_clear.mp3", "volume": 1 },
+    "alert": { "file": "field_alert.mp3", "volume": 1 }
+  },
+  "block": {
+    "move": {
+      "file": "block_moved.mp3",
+      "volume": 1
+    },
+    "put": {
+      "file": "block_put.mp3",
+      "volume": 0.1
+    }
+  },
+  "attack": {
+    "add": {
+      "file": "attack_add.mp3",
+      "volume": 1
+    },
+    "cancel": {
+      "file": "attack_cancel1.mp3",
+      "volume": 0.5
+    },
+    "cancelComplete": {
+      "file": "attack_cancel2.mp3",
+      "volume": 1
+    },
+    "impact": {
+      "file": "attack_impact1.mp3",
+      "volume": 0.5
+    },
+    "mitigated": {
+      "file": "attack_mitigated.mp3",
+      "volume": 0.8    
+    }
+  },
+  "clear": {
+    "firstWord": { "file": "firstword_add1.mp3", "volume": 0.3 },
+    "firstWordBoost": { "file": "firstword_add2.mp3", "volume": 0.4 },
+    "firstWordFever": { "file": "firstword_fever.mp3", "volume": 0.4 },
+    "longWord": {
+      "3": { "file": "longWord_3.mp3", "volume": 0.8 },
+      "4": { "file": "longWord_4.mp3", "volume": 0.7 }
+    },
+    "chain": [
+      {
+        "file": "chain_01.mp3",
+        "volume": 0.8
+      },
+      {
+        "file": "chain_02.mp3",
+        "volume": 1
+      },
+      {
+        "file": "chain_03.mp3",
+        "volume": 0.9
+      },
+      {
+        "file": "chain_04.mp3",
+        "volume": 0.8
+      },
+      {
+        "file": "chain_05.mp3",
+        "volume": 1
+      }
+    ]
+  }
+}

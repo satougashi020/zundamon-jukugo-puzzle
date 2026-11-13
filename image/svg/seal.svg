@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" width="200" height="260">
+  <defs>
+    <filter id="sumi" x="-20%" y="-20%" width="140%" height="140%">
+      <!-- 縁のにじみ -->
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" seed="7" result="edgeNoise"/>
+      <feDisplacementMap in="SourceGraphic" in2="edgeNoise" scale="5"
+                         xChannelSelector="R" yChannelSelector="G" result="rough"/>
+      <!-- かすれ（紙目による抜け） -->
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="grain"/>
+      <feColorMatrix in="grain" type="matrix"
+                     values="0 0 0 0 0
+                             0 0 0 0 0
+                             0 0 0 0 0
+                             0 0 0 -1.2 1.6" result="grainAlpha"/>
+      <feComposite in="rough" in2="grainAlpha" operator="in"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#sumi)" fill="none" stroke="#ee04fa" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 外周の四角形 -->
+    <rect x="20" y="20" width="160" height="220" stroke-width="10"/>
+
+    <!-- 中央を囲む○ -->
+    <path d="M 100 88 C 124 88, 142 106, 142 130 C 142 154, 124 172, 100 172 C 76 172, 58 154, 58 130 C 58 106, 76 88, 100 88"
+          stroke-width="9"/>
+
+    <!-- 中央の× -->
+    <path d="M 77 107 C 89 118, 104 134, 124 153" stroke-width="12"/>
+    <path d="M 124 107 C 113 120, 98 138, 76 153" stroke-width="12"/>
+  </g>
+</svg>

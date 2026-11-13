@@ -1,0 +1,10 @@
+{
+  "tracks": {
+    "menu": { "file": "maou_bgm_acoustic35.mp3", "volume": 0.4 },
+    "battle1": { "file": "maou_bgm_ethnic02.mp3", "volume": 0.4 },
+    "battle2": { "file": "maou_bgm_cyber42.mp3", "volume": 0.4 },
+    "battle3": { "file": "maou_bgm_cyber31.mp3", "volume": 0.4 },
+    "battle4": { "file": "maou_bgm_neorock33.mp3", "volume": 0.3 },
+    "result1": { "file": "maou_bgm_cyber13.mp3", "volume": 0.3 }
+  }
+}

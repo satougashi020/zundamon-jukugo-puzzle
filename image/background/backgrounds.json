@@ -1,0 +1,11 @@
+{
+  "versus": "bg_01",
+  "backgrounds": [
+    { "id": "bg_01", "name": "対戦_学校", "file": "bg_11.png" },
+    { "id": "bg_02", "name": "対戦_海", "file": "bg_02.png" },
+    { "id": "bg_03", "name": "対戦_森", "file": "bg_14.png" },
+    { "id": "bg_04", "name": "対戦_庭園", "file": "bg_13.png" },
+    { "id": "bg_05", "name": "対戦_紫陽花", "file": "bg_15.png" }
+
+] 
+}
