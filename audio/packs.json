@@ -1,0 +1,21 @@
+{
+  "default": "zundamon01",
+  "packs": [
+    { "id": "zundamon01", "path": "zundamon01/words.json" },
+    { "id": "zundamon02", "path": "zundamon02/words.json" },
+    { "id": "zundamon03", "path": "zundamon03/words.json" },
+    { "id": "zundamon04", "path": "zundamon04/words.json" },
+    { "id": "kiritan01", "path": "kiritan01/words.json" },
+    { "id": "kiritan02", "path": "kiritan02/words.json" },
+    { "id": "kiritan03", "path": "kiritan03/words.json" },
+    { "id": "kiritan04", "path": "kiritan04/words.json" },
+    { "id": "zunko01", "path": "zunko01/words.json" },
+    { "id": "zunko02", "path": "zunko02/words.json" },
+    { "id": "zunko03", "path": "zunko03/words.json" },
+    { "id": "zunko04", "path": "zunko04/words.json" },
+    { "id": "ankomon01", "path": "ankomon01/words.json" },
+    { "id": "ankomon02", "path": "ankomon02/words.json" },
+    { "id": "ankomon03", "path": "ankomon03/words.json" },
+    { "id": "ankomon04", "path": "ankomon04/words.json" }
+  ]
+}
